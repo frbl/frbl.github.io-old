@@ -5,23 +5,40 @@ html, body {
     height:100%;
     min-height:100%;
 }
-.fullscreen-cont,
-.fullscreen-img {
-    display:block;
-    position:relative;
-    min-width:100%;
-    min-height:100%;
+
+.links {
+  text-align:center;
 }
-.fullscreen-img {
-    display:block;
-    position:absolute;
-    z-index:1;
-    min-width:100%;
-    min-height:100%;
-    /* background position when .fullscreen-img overflows */
-    background:transparent url('/images/mbp.jpg') center center no-repeat;
-    background-size:cover;
+
+img.greyscale {
+  -webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
+
+.content {
+  text-align:justify;
+}
+
+.circular img {
+  display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	
+	background-color: #ddd;
+	opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+.circular :hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  text-decoration:none!important;
+}
+
 .content {
     display:block;
     position:relative;
