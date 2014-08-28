@@ -33,10 +33,15 @@ img.greyscale {
   filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
-.circular :hover {
+.circular:hover img {
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
   text-decoration:none!important;
+}
+
+.selected img {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .content {

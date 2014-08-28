@@ -21,8 +21,12 @@ $(document).ready(function(){
   }
 
   $(".inner-link").click(function() {  //use a class, since your ID gets mangled
-    data = $(this).attr('href'); //window.location.hash
-    has_data = $(this).data('load-json') === true;
+    $(".inner-link").each(function(){$(this).removeClass('selected') })
+    
+    var el = $(this)
+    el.addClass('selected')
+    data = el.attr('href'); //window.location.hash
+    has_data = el.data('load-json') === true;
     loadContent(data.substring(1), has_data);
   });
 });
