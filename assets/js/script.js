@@ -3,19 +3,22 @@ $(document).ready(function(){
 
   function loadContent(url, has_data) {
     var x,y;
+    var target = $('#target');
+    var rendered ='';
+
     if (has_data) x = $.getJSON('content/'+url+'.json');
-  
+    
     y = $.get(url+'.mst');
-    var rendered =''
+    
     if(has_data) {
       $.when.apply($, [x,y]).done(function(json, template) {
         rendered = Mustache.render(template[0], json[0]);
-        $('#target').html(rendered);
+        target.html(rendered);
       });
     } else {
       y.done(function(template) {
         rendered = template
-        $('#target').html(rendered);
+        target.html(rendered);
       });
     }
   }
