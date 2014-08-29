@@ -1,9 +1,30 @@
 {
     "publications": [
         {
+            "title": "HowNutsAreTheDutch: Personalized feedback on a national scale",
+            "year": 2014,
+            "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Bos, E.H., Emerencia, A. C., Jeronimus, B.F., Schenk, H. M., De Vos, S., Wardenaar, K. J., Wanders, R. B. K., Wigman, J. T. W., Aiello, M., De Jonge, P.",
+            "abstract": "Test description",
+            "journal": "AAAI Fall Symposium on Expanding the Boundaries of Health Informatics Using AI (HIAI'14), Arlington, VA. (USA), To appear"
+        },
+        {
+            "title": "Leefplezier: Personalized well-being",
+            "year": 2014,
+            "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Aiello, M., De Jonge, P.",
+            "abstract": "Test description",
+            "journal": "Doctoral Consortium of the IEEE International Conference on Healthcare Informatics 2014 (ICHI 2014), Verona, Italy, To appear"
+        },
+        {
+            "title": "Gamification in a Consulting Company",
+            "year": 2014,
+            "authors": "Blaauw, F. J., Bazylevska, L., Aiello, Ma",
+            "abstract": "Test description",
+            "journal": "Workshop Autonomous Systems 2014 (FernUniversity in Hagen), Mallorca, Spain, To appear"
+        },
+        {
             "title": "3D interaction on a 2D surface",
             "year": 2012,
-            "authors": "F.J. Blaauw, W.J.J. Schuitema",
+            "authors": "Blaauw, F. J., Schuitema, W.J.J.",
             "abstract": "Test description",
             "journal": "Proceedings of SC@RUG 2012"
         }
