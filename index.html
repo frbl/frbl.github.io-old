@@ -1,66 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="frbl">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>frbl</title>
+    
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controllers.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
   </head>
-
+  
   <body>
-    <div class="container-fluid">
-      <div class="col-md-offset-1 col-md-10">
-        <h1 class="page-header">Frank Blaauw <br><small>PhD Student at the University of Groningen</small></h1>
-        <div class="row links">
-          <div class="col-sm-12 col-xs-12">
-            <div class="col-sm-3 col-xs-12">
-              <a href="#research" data-load-json='true' class="circular inner-link">
-                <img class="img-responsive hidden-xs" src="assets/images/research.jpeg">
-                <h3>Research</h3>
-              </a>
-            </div>
-            <div class="col-sm-3 col-xs-12">
-              <a href="#publications" data-load-json='true' class="circular inner-link">
-                <img class="img-responsive hidden-xs" src="assets/images/publications.png">
-                <h3>Publications</h3>
-              </a>
-            </div>
-            <div class="col-sm-3 col-xs-12">
-              <a href="#links" data-load-json='true' class="circular inner-link">
-                <img class="img-responsive hidden-xs" src="assets/images/github.png">
-                <h3>Links</h3>
-              </a>
-            </div>
-            <div class="col-sm-3 col-xs-12">
-              <a href="#contact" data-load-json='false' class="circular inner-link">
-                <img class="img-responsive hidden-xs" src="assets/images/contact.jpg">
-                <h3>Contact</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <hr>
-          <div class="content" id="target">
-          <h3>About me</h3>
-          <p>Hello, my name is Frank Blaauw. Since 2013 I work as a PhD Student on a project for the University of Groningen (RUG) and the University Medical Center Groningen (UMCG)</p>
-          <p>I am currently involved in two projects: the <em>Leefplezier</em> project (funded by caregroup Espria) and <em>HoeGekIsNL</em>.</p>
-          </div>
-        </div>
-        <div class="row">
-          <hr>
-          <p class="text-center">Copyright &copy; Frank Blaauw, 2014</p>
-        </div>
-      </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/mustache.js"></script>
-    <script src="assets/js/script.js"></script>
+    <div class="slide-animate" ng-include src="'views/partials/header.html'"></div>
+    <div class="slide-animate" ng-include src="'views/partials/navigation.html'"></div>
+    <div ng-view></div>
   </body>
 </html>
