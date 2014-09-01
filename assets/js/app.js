@@ -11,8 +11,19 @@ phonecatApp.config(['$routeProvider',
         controller: 'ResearchCtrl'
       }).
       when('/publications', {
-        templateUrl: 'views/publications.html',
-        controller: 'ResearchCtrl'
+        templateUrl: 'views/publications/publication-list.html',
+        controller: 'PublicationCtrl'
+      }).
+      when('/publications/:publicationId', {
+        templateUrl: 'views/publications/publication.html',
+        controller: 'PublicationDetailCtrl'
+      }).
+      when('/links', {
+        templateUrl: 'views/links.html',
+        controller: 'LinksCtrl'
+      }).
+      when('/contact', {
+        templateUrl: 'views/contact.html'
       }).
       otherwise({
         templateUrl: 'views/about.html'

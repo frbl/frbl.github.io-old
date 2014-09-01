@@ -1,32 +1,38 @@
-{
-    "publications": [
+[
         {
+            "id": 1,
             "title": "HowNutsAreTheDutch: Personalized feedback on a national scale",
             "year": 2014,
             "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Bos, E.H., Emerencia, A. C., Jeronimus, B.F., Schenk, H. M., De Vos, S., Wardenaar, K. J., Wanders, R. B. K., Wigman, J. T. W., Aiello, M., De Jonge, P.",
-            "abstract": "Test description",
-            "journal": "AAAI Fall Symposium on Expanding the Boundaries of Health Informatics Using AI (HIAI'14), Arlington, VA. (USA), To appear"
+            "abstract": "A paradigm shift is taking place in the field of mental healthcare and patient well-being. Traditionally, the attempts at sustaining and enhancing well-being were mainly based on the comparison of the individual with the population average. Recently, attention has shifted towards a more personal, idiographic approach. Such shift calls for new solutions to get data about individuals, create personalized models of well-being and translating these into personalized advice. Idiographic research can be conducted on a large scale by letting people measure themselves. Repeated collection of data, for example by means of questionnaires, provides individuals feedback on and insight into their well-being. A way to partially automate this feedback process is by creating software that statistically analyzes, using a method known as vector autoregression, repetitive questionnaire data to determine cause-effect relationships between the measured features. In this paper we describe a means to facilitate these repetitive measurements and to partially automate the feedback process. The paper provides an overview and technical description of such automated analyses software, named Autovar, and its use in an online self-measurement platform.",
+            "journal": "AAAI Fall Symposium on Expanding the Boundaries of Health Informatics Using AI (HIAI'14), Arlington, VA. (USA), To appear",
+            "thumb":"how_nuts.png"
         },
         {
+            "id": 2,
             "title": "Leefplezier: Personalized well-being",
             "year": 2014,
             "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Aiello, M., De Jonge, P.",
-            "abstract": "Test description",
-            "journal": "Doctoral Consortium of the IEEE International Conference on Healthcare Informatics 2014 (ICHI 2014), Verona, Italy, To appear"
+            "abstract": "Each person is different and should be treated as such. Comparing personal data to group averages can give basic ideas about personal conditions, but does not suffice for providing `true' personalized feedback. In health psychology, a paradigm shift is taking place from a general population approach towards a more person-centered one. Instead of comparing a person with population averages, the focus shifts towards comparing a person with themselves over time. ",
+            "journal": "Doctoral Consortium of the IEEE International Conference on Healthcare Informatics 2014 (ICHI 2014), Verona, Italy, To appear",
+            "thumb":"leefplz.png"
         },
         {
+            "id": 3,
             "title": "Gamification in a Consulting Company",
             "year": 2014,
             "authors": "Blaauw, F. J., Bazylevska, L., Aiello, Ma",
-            "abstract": "Test description",
-            "journal": "Workshop Autonomous Systems 2014 (FernUniversity in Hagen), Mallorca, Spain, To appear"
+            "abstract": "Gamification refers to the use of game-design elements in a non-gaming context. The consulting company Capgemini has set up a rudimentary gamification platform, to motivate the employees to do extra work for the company in their spare time. In order to reward people for this effort, they can request badges, which are virtual representations of achievements. A team of other employees decide whether or not the badge is granted. The gamification platform can answer a number of research questions on the efficacy and effectiveness of such platforms. For instance, what is the relation between authoritativeness of people in a professional organization? In the present work, we focus on the design of a gamification solution and combine a gamification platform with an existing company-wide social media service. Statistical analysis on both the social graph and the gamification data shows the correlations between the social network and the number of badges or types of badges the players have earned. The analysis focusses mainly on authoritativeness of people; a measure to determine the importance of a person in a social network. Early results show that a correlation exists between the quantity of badges or types of badges. The result strengthens the foundation why one should implement a gamification platform and how important the social structure in the sense of social media is for the value of it.",
+            "journal": "Workshop Autonomous Systems 2014 (FernUniversity in Hagen), Mallorca, Spain, To appear",
+            "thumb":"gamificat.png"
         },
         {
+            "id": 4,
             "title": "3D interaction on a 2D surface",
             "year": 2012,
             "authors": "Blaauw, F. J., Schuitema, W.J.J.",
-            "abstract": "Test description",
-            "journal": "Proceedings of SC@RUG 2012"
+            "abstract": "-",
+            "journal": "Proceedings of SC@RUG 2012",
+            "thumb":"empty.png"
         }
-    ]
-}
+]

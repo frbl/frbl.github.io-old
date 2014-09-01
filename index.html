@@ -17,8 +17,14 @@
   </head>
   
   <body>
-    <div class="slide-animate" ng-include src="'views/partials/header.html'"></div>
-    <div class="slide-animate" ng-include src="'views/partials/navigation.html'"></div>
-    <div ng-view></div>
+    <div class="container-fluid">
+      <div class="col-md-offset-1 col-md-10">
+        <div class="slide-animate" ng-include src="'views/partials/header.html'"></div>
+        <div class="slide-animate" ng-include src="'views/partials/navigation.html'"></div>
+        <div class="row">
+          <div ng-view></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,4 +1,5 @@
-{{#research}}
-  <h3>{{title}}</h3>
-  <p>{{&description}}</p>
-{{/research}}
+<h2>Research</h2>
+<div ng-repeat="research_topic in research">
+  <h3>{{research_topic.title}}</h3>
+  <p>{{research_topic.description}}</p>
+</div>
