@@ -2,11 +2,11 @@
     "research": [
         {
             "title": "HoeGekIsNL",
-            "description": "<a href='https://www.hoegekis.nl' target='_blank'>Hoe gek is Nederland?</a> (translation: <em>How nuts are the Dutch?</em>) is an online platform designed to support self-measurement of mental health for the entire population of the Netherlands by allowing them to fill out questionnaires and by providing them with personalized feedback. Currently, the web application has ~11,000 active users. One of the ways that we provide feedback is by applying Autovar to find VAR models that determinine contemporary and causal relations between quality of life indicators of EMA data. We then plot those relations as graphs to provide insight to the user, e.g., for identifying the indicators that have a high likelihood of being significant for improving their well-being. To the best of our knowledge, this is the first fully-automated derivation and application of vector autoregression models. This project is an initiative of the ICPE and was conceived as a pilot study for the Leefplezier project funded by <a href='https://www.espria.nl' target='_blank'>Espria</a>."
+            "description": "TDB."
         },
         {
             "title": "Leefplezier",
-            "description": "Leefplezier (translation: <em>Well-being</em>) is an online platform to support self-measurement of mental health for the elderly population of the Netherlands by allowing them to fill out questionnaires and by providing them with personalized feedback. Here, we aim to provide the same depth of feedback as for HoeGekIsNL but with focus on the elderly and on the issues that are important to them. This project is an initiative of the ICPE and is funded by <a href='https://www.espria.nl' target='_blank'>Espria</a>."
+            "description": "TDB."
         }
     ]
 }
