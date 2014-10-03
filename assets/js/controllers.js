@@ -5,7 +5,8 @@ frblControllers.controller('PublicationCtrl', ['$scope', '$http',
     $http.get('content/publications.json').success(function(data) {
       $scope.publications = data;
     });
-  }]);
+  }
+]);
   
 frblControllers.controller('PublicationDetailCtrl', ['$scope', '$http', '$filter', '$routeParams',
   function($scope, $http, $filter, $routeParams) {
@@ -15,18 +16,21 @@ frblControllers.controller('PublicationDetailCtrl', ['$scope', '$http', '$filter
       console.log($scope.publication)
     });
     
-  }]);
+  }
+]);
 
 frblControllers.controller('ResearchCtrl', ['$scope', '$http',
   function ($scope, $http) {
     $http.get('content/research.json').success(function(data) {
       $scope.research = data;
     });
-  }]);
+  }
+]);
 
 frblControllers.controller('LinksCtrl', ['$scope', '$http',
   function ($scope, $http) {
     $http.get('content/links.json').success(function(data) {
       $scope.links = data;
     });
-  }]);
+  }
+]);
