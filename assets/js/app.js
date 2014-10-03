@@ -1,9 +1,9 @@
-var phonecatApp = angular.module('frbl', [
-  'ngRoute',
-  'frblControllers'
-]);
+var frbl, frblControllers;
+frbl = angular.module('frbl', ['ngRoute', 'frblControllers']);
+frblControllers = angular.module('frblControllers', []);
 
-phonecatApp.config(['$routeProvider',
+
+frbl.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/research', {
@@ -28,5 +28,5 @@ phonecatApp.config(['$routeProvider',
       otherwise({
         templateUrl: 'views/about.html'
       });
-      
+
   }]);
