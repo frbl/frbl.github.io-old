@@ -1,6 +1,7 @@
-var frbl, frblControllers;
-frbl = angular.module('frbl', ['ngRoute', 'frblControllers']);
+var frbl, frblControllers, frblServices;
+frbl = angular.module('frbl', ['ngRoute', 'frblControllers', 'frblServices']);
 frblControllers = angular.module('frblControllers', []);
+frblServices = angular.module('frblServices', []);
 
 
 frbl.config(['$routeProvider',
@@ -26,7 +27,8 @@ frbl.config(['$routeProvider',
         templateUrl: 'views/contact.html'
       }).
       otherwise({
-        templateUrl: 'views/about.html'
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
       });
 
   }]);
