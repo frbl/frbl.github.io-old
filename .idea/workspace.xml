@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="993276f9-849c-461d-bf97-b0109d9631a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/layout.css" afterPath="$PROJECT_DIR$/assets/css/layout.css" />
-    </list>
+    <list default="true" id="993276f9-849c-461d-bf97-b0109d9631a0" name="Default" comment="" />
     <ignored path="frbl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +23,7 @@
     <favorites_list name="frbl.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.42406014">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
