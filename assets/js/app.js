@@ -1,5 +1,5 @@
 var frbl, frblControllers, frblServices;
-frbl = angular.module('frbl', ['ngRoute', 'frblControllers', 'frblServices']);
+frbl = angular.module('frbl', ['ngRoute', 'uiGmapgoogle-maps', 'frblControllers', 'frblServices']);
 frblControllers = angular.module('frblControllers', []);
 frblServices = angular.module('frblServices', []);
 
@@ -24,7 +24,8 @@ frbl.config(['$routeProvider',
         controller: 'LinksCtrl'
       }).
       when('/contact', {
-        templateUrl: 'views/contact.html'
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
       }).
       otherwise({
         templateUrl: 'views/about.html',

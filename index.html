@@ -7,19 +7,6 @@
 
     <title>frbl</title>
 
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/holder.js"></script>
-
-    <script src="assets/js/controllers/links_controller.js"></script>
-    <script src="assets/js/controllers/publication_controller.js"></script>
-    <script src="assets/js/controllers/publication_detail_controller.js"></script>
-    <script src="assets/js/controllers/research_controller.js"></script>
-    <script src="assets/js/controllers/about_controller.js"></script>
-
-    <script src="assets/js/services/google_calendar_service.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
 </head>
@@ -27,102 +14,40 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-            <header class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12">
-                    <a href="#" id="logo"></a>
-                </div>
-                <div class="col-lg-9 col-md-12 col-sm-12">
-                    <nav>
-                        <ul class="">
-                            <li role="presentation"><a href="#">About</a></li>
-                            <li role="presentation"><a href="#">Research</a></li>
-                            <li role="presentation"><a href="#">Publications</a></li>
-                            <li role="presentation"><a href="#">links</a></li>
-                            <li role="presentation"><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-
-            <div id="hero-image" class="row">
-                <div id="hero-content">
-                </div>
+        <div class="col-md-offset-2 col-md-8">
+            <div ng-include src="'views/partials/header.html'"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="hero-image" class="row">
+            <div id="hero-content">
             </div>
-
-            <div id="features" class="row hidden-xs hidden-sm">
-                <div class="col-md-4">
-                    <span class="icon glyphicon glyphicon-education" id="university"></span>
-
-                    <h3>Computer Science</h3>
-
-                    <p>PhD Candidate in the field of Computer Science at the <a href="http://rug.nl" target="_blank">University of Groningen</a>.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="icon glyphicon glyphicon-cloud" id="ds"></span>
-
-                    <h3>Distributed Systems</h3>
-
-                    <p>Member of the Johann Bernoulli Institute for Mathematics and Computer Science: <a href="#">Distributed Systems group</a>, led by <a href="#" target="_blank">Marco Aiello</a>.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="icon glyphicon glyphicon-plus-sign" id="medical"></span>
-
-                    <h3>Medical center</h3>
-
-                    <p>Employed by the University Medical Center Groningen, at the Interdisciplinary Center Psychopathology and Emotion regulation department, led by <a href="#">Peter de Jonge</a>.</p>
-                </div>
-            </div>
-            <div id="primary-content" class="row">
-                <article>
-                    <h1>About</h1>
-
-                    <p>Hello, my name is Frank Blaauw. Since 2013 I work as a PhD Student on a project for the University of Groningen (RUG) and the University Medical Center Groningen (UMCG)
-
-                        I am currently involved in two projects: the Leefplezier project (funded by caregroup Espria) and HoeGekIsNL.</p>
-                </article>
-            </div>
-
-            <div id="secondary-content" class="row">
-                <article class="col-md-6 col-xs-12">
-                    <div class="secondary-article-content col-md-6">
-                        <h3>HoeGekIsNL</h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida tempor diam a
-                            convallis.</p>
-                        <a href="#" class="btn btn-sm btn-default">More information</a>
-                    </div>
-                    <div class="secondary-article-content-image col-md-offset-0 col-md-6 col-xs-offset-3 col-xs-6">
-                        <a href="#" class="thumbnail">
-                            <img class="" src="assets/images/hoegekisnl.png">
-                        </a>
-                    </div>
-                </article>
-                <article class="col-md-6 col-xs-12">
-                    <div class="col-md-6 secondary-article-content">
-                        <h3>Leefplezier</h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida tempor diam a
-                            convallis.</p>
-                        <a href="#" class="btn btn-sm btn-default">More information</a>
-                    </div>
-                    <div class="secondary-article-content-image col-md-offset-0 col-md-6 col-xs-offset-3 col-xs-6">
-                        <a href="#" class="thumbnail">
-                            <img class="" src="assets/images/leefplzier.png">
-                        </a>
-                    </div>
-                </article>
-            </div>
-
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <div class="slide-animate" ng-view></div>
         </div>
     </div>
     <footer class="row">
-        <div class="col-md-offset-3 col-md-6">
+        <div class="col-md-offset-2 col-md-8" ng-controller="FooterCtrl">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright &copy; 2015 Frank Blaauw, All rights reserved. The images on this website are either created by myself, or acquired from <a href="http://deathtothestockphoto.com" target="_blank">DeathToTheStockPhoto</a></p>
+                    <p>Copyright &copy; 2015 Frank Blaauw, All rights reserved. The images on this website are either
+                        created by myself, or acquired from <a href="http://deathtothestockphoto.com" target="_blank">DeathToTheStockPhoto</a>
+                    </p>
 
-                    <p><a href="#">Contact</a> | <a href="#">Agenda</a></p>
+                    <p><a href="#contact">Contact</a> | <a href="#">You can find me at the {{current_location ||
+                        'Unknown'}}</a>
+                    </p>
+
+                    <div class="col-md-12">
+                        <button ng-click="location_of_day(-1)" class="btn btn-link"><span
+                                class="glyphicon glyphicon-chevron-left"></span></button>
+                        {{ date | date:'dd, MMM'}}
+                        <button ng-click="location_of_day(1)" class="btn btn-link"><span
+                                class="glyphicon glyphicon-chevron-right"></span></button>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <address>
@@ -150,5 +75,28 @@
         </div>
     </footer>
 </div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+<script src="bower_components/angular-google-maps/dist/angular-google-maps.min.js"></script>
+<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/holder.js"></script>
+
+<script src="assets/js/services/google_calendar_service.js"></script>
+<script src="assets/js/services/research_service.js"></script>
+
+<script src="assets/js/controllers/links_controller.js"></script>
+<script src="assets/js/controllers/footer_controller.js"></script>
+<script src="assets/js/controllers/publication_controller.js"></script>
+<script src="assets/js/controllers/publication_detail_controller.js"></script>
+<script src="assets/js/controllers/research_controller.js"></script>
+<script src="assets/js/controllers/contact_controller.js"></script>
+<script src="assets/js/controllers/about_controller.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </body>
 </html>

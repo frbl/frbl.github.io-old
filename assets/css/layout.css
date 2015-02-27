@@ -4,29 +4,47 @@
     src: url(../fonts/GeosansLight.ttf);
 }
 
+@font-face {
+    font-family: 'Mohave';
+    src: url('../fonts/Mohave.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MohaveBold';
+    src: url('../fonts/Mohave-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('../fonts/Mohave-Bold%20Italics.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*@font-face {*/
+    /*font-family: 'Mohave';*/
+    /*src: url('../fonts/Mohave-SemiBold.otf.otf');*/
+    /*font-weight: ;*/
+    /*font-style:italic;*/
+/*}*/
+
 html, body {
     /* any div up to fullscreen-cont must have this
     in this case html and body */
     height:100%;
     min-height:100%;
-    font-family: geo-sans-light;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-    font-size:110%;
-}
+p {font-size:110%; font-weight: 300;}
 
-h1, h2, h3, h4, h5, h6 {font-weight: 600;}
+h1, h2, h3 {font-weight: bold; font-family: MohaveBold;}
 
-h1 {
-    text-transform: uppercase;
-    font-size: 200%;
-}
 
-h3 {
-    text-transform: uppercase;
-    font-size: 125%;
-}
+h3 { font-size: 140%;}
 
 header nav {
     text-align: center;
@@ -38,6 +56,7 @@ header nav ul li {
 }
 
 header nav>ul>li>a {
+    font-size: 120%;
     text-align: center;
     vertical-align: middle;
     color: #444;
@@ -46,8 +65,8 @@ header nav>ul>li>a {
     padding-bottom: 5px;
     padding-left: 5px;
     text-decoration:none;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-family: MohaveBold;
+
 }
 
 header nav>ul>li>a:hover {
@@ -72,7 +91,7 @@ header nav>ul>li>a:hover {
     display: block;
     width: 100px;
     height: 82px;
-    background: url('../images/logo_frbl.svg');
+    background: url('../images/logo_frbl-c.svg');
     background-size: 100px 82px;
 
 }
@@ -124,7 +143,15 @@ header nav>ul>li>a:hover {
 }
 
 
-article h1, article h2, article h3 {
+article h1 {
+    border-bottom: 2px solid #d19342;
+}
+
+h2 {
+    border-bottom: 2px solid #d19342;
+}
+
+article h3 {
     border-bottom: 1px solid #d19342;
 }
 
@@ -160,12 +187,17 @@ article h3 {
 .secondary-article-content-image  {
     padding-top:10px;
 }
+
+.thumbnail {
+    margin-bottom:0px;
+}
+
 .secondary-article-content-image .thumbnail {
     max-height:200px;
     overflow:hidden;
 }
 
-
+.angular-google-map-container { height: 400px; }
 
 .secondary-article-content p{
     text-align:center;
@@ -173,12 +205,36 @@ article h3 {
 }
 
 
+.thumbnail {
+    box-shadow: 0px 1px 5px #888888;
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 10px 50px #888888;
+}
+
+.publication-image {
+    padding:30px;
+}
+
+.publication-text {
+    padding:30px;
+}
+
 footer {
-    font-size:70%;
-    color: #333;
+    font-size:80%;
     margin-top:30px;
     padding-top:20px;
-    background-color: #d1cac1;
+    color:#ffffff;
+    background-color: #d1ad7d;
+}
+footer p , footer address{
+    font-weight: 400;
+}
+
+footer a, footer a:hover, footer a:focus, footer .btn, footer .btn:hover, footer .btn:focus {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .btn.btn-default{
@@ -194,7 +250,17 @@ footer {
 
 }
 
+.arrow:hover {
+    color:#78a3bc;
+}
 
+.arrow {
+    color:#444;
+}
+
+a:focus {
+    text-decoration:none;
+}
 
 .links a, .links a:hover {
   color:white;

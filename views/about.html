@@ -1,22 +1,48 @@
-<hr>
-<div class="content" id="target">
-  <h3>About me</h3>
-  <div class="col-sm-8">
-    <p>Hello, my name is Frank Blaauw. Since 2013 I work as a PhD Student on a project for the University of Groningen (RUG) and the University Medical Center Groningen (UMCG)</p>
-    <p>I am currently involved in two projects: the <em>Leefplezier</em> project (funded by caregroup Espria) and <em>HoeGekIsNL</em>.</p>
-  </div>
-  <div class="col-sm-4">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">My location 
-          <button ng-click="location_of_day(-1)" class="btn btn-link"><span class="glyphicon glyphicon-chevron-left"></span></button>
-          {{ date | date:'dd, MMM'}}
-          <button ng-click="location_of_day(1)" class="btn btn-link"><span class="glyphicon glyphicon-chevron-right"></span></button>
-        </h3>
-      </div>
-      <div class="panel-body">
-        You can find me at the {{current_location || 'Unknown'}}
-      </div>
+<div id="features" class="row hidden-xs hidden-sm">
+    <div class="col-md-4">
+        <span class="icon glyphicon glyphicon-education" id="university"></span>
+
+        <h3>Computer Science</h3>
+
+        <p>PhD Candidate in the field of Computer Science at the <a href="http://rug.nl" target="_blank">University of Groningen</a>.</p>
     </div>
-  </div>
+    <div class="col-md-4">
+        <span class="icon glyphicon glyphicon-cloud" id="ds"></span>
+
+        <h3>Distributed Systems</h3>
+
+        <p>Member of the Johann Bernoulli Institute for Mathematics and Computer Science: <a href="http://distributedsystems.nl" target="_blank">Distributed Systems group</a>, led by <a href="http://www.cs.rug.nl/aiellom/aiellom/Home.html" target="_blank">Marco Aiello</a>.</p>
+    </div>
+    <div class="col-md-4">
+        <span class="icon glyphicon glyphicon-plus-sign" id="medical"></span>
+
+        <h3>Medical center</h3>
+
+        <p>Employed by the University Medical Center Groningen, at the <a href="http://icpe.nl" target="_blank">Interdisciplinary Center Psychopathology and Emotion regulation</a> department, led by <a href="http://www.rug.nl/staff/peter.de.jonge/" target="_blank">Peter de Jonge</a>.</p>
+    </div>
+</div>
+<div id="primary-content" class="row">
+    <article>
+        <h1>About</h1>
+
+        <p>Hello, my name is Frank Blaauw. Since 2013 I work as a PhD Student on a project for the University of Groningen (RUG) and the University Medical Center Groningen (UMCG)
+
+            I am currently involved in two projects: the Leefplezier project (funded by caregroup Espria) and HoeGekIsNL.</p>
+    </article>
+</div>
+
+<div id="secondary-content" class="row">
+    <article class="col-md-6 col-xs-12" ng-repeat="research_topic in research">
+        <div class="secondary-article-content col-md-6">
+            <h3>{{research_topic.title}}</h3>
+
+            <p>{{research_topic.short_description}}</p>
+            <a href="#research" class="btn btn-sm btn-default">More information</a>
+        </div>
+        <div class="secondary-article-content-image col-md-offset-0 col-md-6 col-xs-offset-3 col-xs-6">
+            <a href="#research" class="thumbnail">
+                <img class="" ng-src="assets/images/{{research_topic.thumbnail}}" spinner-on-load>
+            </a>
+        </div>
+    </article>
 </div>
