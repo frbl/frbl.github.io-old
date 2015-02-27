@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993276f9-849c-461d-bf97-b0109d9631a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google_maps/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google_maps/js/csv_reader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google_maps/data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google_maps/js/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google_maps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="frbl.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="research.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="research.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/research.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="826">
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -73,14 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <marker date="1425079737000" expanded="true" signature="52:393" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="1620">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,9 +134,9 @@
         <option value="$PROJECT_DIR$/assets/css/layout.css" />
         <option value="$PROJECT_DIR$/views/partials/header.html" />
         <option value="$PROJECT_DIR$/views/about.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/publications.json" />
         <option value="$PROJECT_DIR$/content/research.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -507,9 +501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1920">
           <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <marker date="1425079737000" expanded="true" signature="52:393" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -548,9 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1500">
           <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-          <folding>
-            <marker date="1425079737000" expanded="true" signature="52:393" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,6 +668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36382535" vertical-offset="30685" max-vertical-offset="329385">
           <caret line="2069" column="12" selection-start-line="2069" selection-start-column="12" selection-end-line="2069" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,16 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <marker date="1425079737000" expanded="true" signature="52:393" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="915">
@@ -867,8 +848,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/research.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="826">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="1620">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
