@@ -1,51 +1,102 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="frbl">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>frbl - Frank Blaauw</title>
-    
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    
-    <script src="assets/js/app.js"></script>
-    
-    <script src="assets/js/controllers/links_controller.js"></script>
-    <script src="assets/js/controllers/publication_controller.js"></script>
-    <script src="assets/js/controllers/publication_detail_controller.js"></script>
-    <script src="assets/js/controllers/research_controller.js"></script>
-    <script src="assets/js/controllers/about_controller.js"></script>
-    
-    <script src="assets/js/services/google_calendar_service.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+
+    <title>frbl</title>
+
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-54631124-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
-  
-  <body>
-    <div class="container-fluid">
-      <div class="col-md-offset-1 col-md-10">
-        <div class="slide-animate" ng-include src="'views/partials/header.html'"></div>
-      </div>
-    </div>
-    <div class="slide-animate" ng-include src="'views/partials/navigation.html'"></div>
-    <div class="container-fluid">
-      <div class="col-md-offset-1 col-md-10">
-        <div class="row">
-          <div ng-view></div>
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <div ng-include src="'views/partials/header.html'"></div>
         </div>
-      </div>
     </div>
-  </body>
+    <div class="row">
+        <div id="hero-image" class="row">
+            <div id="hero-content">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <div class="slide-animate" ng-view></div>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="col-md-offset-2 col-md-8" ng-controller="FooterCtrl">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright &copy; 2015 Frank Blaauw, All rights reserved. The images on this website are either
+                        created by myself, or acquired from <a href="http://deathtothestockphoto.com" target="_blank">DeathToTheStockPhoto</a>
+                    </p>
+
+                    <p><a href="#contact">Contact</a> | <a href="#">You can find me at the {{current_location ||
+                        'Unknown'}}</a>
+                    </p>
+
+                    <div class="col-md-12">
+                        <button ng-click="location_of_day(-1)" class="btn btn-link"><span
+                                class="glyphicon glyphicon-chevron-left"></span></button>
+                        {{ date | date:'dd, MMM'}}
+                        <button ng-click="location_of_day(1)" class="btn btn-link"><span
+                                class="glyphicon glyphicon-chevron-right"></span></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <address>
+                        <strong>University Medical Center Groningen</strong><br>
+                        ICPE<br>
+                        Room K1.16 (1<sup>st</sup> floor)<br>
+                        University Medical Center Groningen<br>
+                        Hanzeplein 1 (Triadegebouw, entrance 24)<br>
+                        9713 GZ Groningen<br>
+                        The Netherlands<br>
+                    </address>
+                </div>
+                <div class="col-md-3">
+                    <address>
+                        <strong>University of Groningen</strong><br>
+                        Johann Bernoulli Institute for Informatics<br>
+                        Room 05.66 (5<sup>th</sup> floor)<br>
+                        University of Groningen<br>
+                        Nijenborgh 9<br>
+                        9747 AG Groningen<br>
+                        The Netherlands<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+<script src="bower_components/lodash/dist/lodash.min.js"></script>
+<script src="bower_components/angular-google-maps/dist/angular-google-maps.min.js"></script>
+<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/holder.js"></script>
+
+<script src="assets/js/services/google_calendar_service.js"></script>
+<script src="assets/js/services/research_service.js"></script>
+
+<script src="assets/js/controllers/links_controller.js"></script>
+<script src="assets/js/controllers/footer_controller.js"></script>
+<script src="assets/js/controllers/publication_controller.js"></script>
+<script src="assets/js/controllers/publication_detail_controller.js"></script>
+<script src="assets/js/controllers/research_controller.js"></script>
+<script src="assets/js/controllers/contact_controller.js"></script>
+<script src="assets/js/controllers/about_controller.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</body>
 </html>

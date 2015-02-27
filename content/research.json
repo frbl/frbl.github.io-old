@@ -1,10 +1,14 @@
 [
-        {
-            "title": "HoeGekIsNL",
-            "description": "TDB."
-        },
-        {
-            "title": "Leefplezier",
-            "description": "TDB."
-        }
+  {
+    "title": "HoeGekIsNL",
+    "description": "TDB.",
+    "short_description": "HoeGekIsNL is a project in which the psychological well-being of the Dutch population is assessed.",
+    "thumbnail": "hoegekisnl.png"
+  },
+  {
+    "title": "Leefplezier",
+    "description": "TDB.",
+    "short_description": "Leefplezier aims to sustain or enhance the well-being of elderly people in the Netherlands",
+    "thumbnail": "leefplzier.png"
+  }
 ]

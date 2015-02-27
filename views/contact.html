@@ -1,26 +1,55 @@
 <h2>Contact</h2>
-<address>
-<strong>University of Groningen</strong><br>
-Institute of Mathematics and Computing Science<br>
-Room	05.66<br>
-University of Groningen<br>
-Nijenborgh 9<br>
-9747 AG Groningen<br>
-The Netherlands<br>
-</address>
 
-<address>
-<strong>University Medical Center Groningen</strong><br>
-Universitair Centrum Psychiatrie<br>
-Room	K1.16<br>
-University Medical Center Groningen<br>
-Hanzeplein 1<br>
-Triadegebouw, 1st floor (entrance 24)<br>
-9713 GZ Groningen<br>
-The Netherlands<br>
-</address>
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-8">
+                <address>
+                    <strong>University of Groningen</strong><br>
+                    Institute of Mathematics and Computing Science<br>
+                    Room 05.66<br>
+                    University of Groningen<br>
+                    Nijenborgh 9<br>
+                    9747 AG Groningen<br>
+                    The Netherlands<br>
+                </address>
+            </div>
+            <div class="col-md-3">
+                <a ng-click="set_loc('rug')" style="font-size:100px;""><span
+                    class="arrow glyphicon glyphicon-chevron-right hidden-xs hidden-sm"></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <address>
+                    <strong>University Medical Center Groningen</strong><br>
+                    Universitair Centrum Psychiatrie<br>
+                    Room K1.16<br>
+                    University Medical Center Groningen<br>
+                    Hanzeplein 1<br>
+                    Triadegebouw, 1st floor (entrance 24)<br>
+                    9713 GZ Groningen<br>
+                    The Netherlands<br>
+                </address>
+            </div>
+            <div class="col-md-3">
+                <a ng-click="set_loc('umcg')" style="font-size:100px;"><span
+                        class="arrow glyphicon glyphicon-chevron-right hidden-xs hidden-sm"></span></a>
+            </div>
+        </div>
 
-E-Mail	  <a href="&#109;a&#105;l&#116;&#111;:&#102;&#46;&#106;&#46;&#98;&#108;&#97;&#97;&#117;&#119;&#64;&#117;&#109;&#99;&#103;&#46;&#110;&#108;">&#102;&#46;&#106;&#46;&#98;&#108;&#97;&#97;&#117;&#119;&#64;&#117;&#109;&#99;&#103;&#46;&#110;&#108;</a><br>
-Phone     ------------<br>
-<a href="https://nl.linkedin.com/in/frankblaauw/">LinkedIn</a> & 
-<a href="http://twitter.com/frbl">Twitter</a>
+        E-Mail <a
+            href="&#109;a&#105;l&#116;&#111;:&#102;&#46;&#106;&#46;&#98;&#108;&#97;&#97;&#117;&#119;&#64;&#117;&#109;&#99;&#103;&#46;&#110;&#108;">
+        &#102;&#46;&#106;&#46;&#98;&#108;&#97;&#97;&#117;&#119;&#64;&#117;&#109;&#99;&#103;&#46;&#110;&#108;</a><br>
+        Phone ------------<br>
+        <a href="https://nl.linkedin.com/in/frankblaauw/" target="_blank">LinkedIn</a> &
+        <a href="http://twitter.com/frbl" target="_blank">Twitter</a>
+    </div>
+    <div id="google-map" class="hidden-xs hidden-sm">
+    <ui-gmap-google-map class="col-md-6 thumbnail" center='map.center' zoom='map.zoom' options="options">
+        <ui-gmap-marker coords="map.center" idkey="0">
+        </ui-gmap-marker>
+    </ui-gmap-google-map>
+    </div>
+
+</div>
