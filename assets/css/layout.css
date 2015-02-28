@@ -77,12 +77,20 @@ header nav>ul>li>a:hover {
 #hero-image {
     vertical-align: middle;
     text-align: center;
-
     padding-top: 1px;
-    background: url('../images/mbp.jpg') no-repeat center;
     border-radius: 5px;
     height:300px;
     background-size: 100%;
+}
+
+.mbp {
+    background: url('../images/mbp.jpg') no-repeat center;
+}
+.imac {
+    background: url('../images/imac.jpg') no-repeat center;
+}
+.white {
+    background: url('../images/white.jpg') no-repeat center;
 }
 
 #logo {

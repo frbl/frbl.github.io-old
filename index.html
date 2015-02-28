@@ -12,14 +12,15 @@
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid" ng-controller="IndexCtrl">
     <div class="row">
         <div class="col-md-offset-2 col-md-8">
             <div ng-include src="'views/partials/header.html'"></div>
         </div>
     </div>
     <div class="row">
-        <div id="hero-image" class="row">
+
+        <div id="hero-image" class="row {{hero}}">
             <div id="hero-content">
             </div>
         </div>
@@ -89,6 +90,7 @@
 <script src="assets/js/services/google_calendar_service.js"></script>
 <script src="assets/js/services/research_service.js"></script>
 
+<script src="assets/js/controllers/index_controller.js"></script>
 <script src="assets/js/controllers/links_controller.js"></script>
 <script src="assets/js/controllers/footer_controller.js"></script>
 <script src="assets/js/controllers/publication_controller.js"></script>
