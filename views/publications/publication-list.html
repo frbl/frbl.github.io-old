@@ -2,7 +2,7 @@
 <div class="publications media-list">
     <article style="border-bottom: 1px solid #d19342" ng-repeat="publication in publications" scroll>
             <div class="row">
-                <div class="publication-image col-md-5" ng-class-even="'col-md-push-7'">
+                <div class="publication-image col-md-5 hidden-sm hidden-xs" ng-class-even="'col-md-push-7'">
                     <a class="thumbnail" href="#/publications/{{publication.id}}">
                         <img ng-src="assets/images/{{publication.thumb}}" alt="" spinner-on-load>
                     </a>
