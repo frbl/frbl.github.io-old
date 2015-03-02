@@ -1,6 +1,15 @@
 <h2>Publications</h2>
 <div class="publications media-list">
+
+
     <article style="border-bottom: 1px solid #d19342" ng-repeat="publication in publications" scroll>
+        <div zum-waypoint="waypoints"
+             down="flags.on"
+             up="flags.on">
+        </div>
+        <div class="default" ng-class="{
+            sticky : waypoints.flags.on
+        }">
             <div class="row">
                 <div class="publication-image col-md-5 hidden-sm hidden-xs" ng-class-even="'col-md-push-7'">
                     <a class="thumbnail" href="#/publications/{{publication.id}}">
@@ -10,9 +19,12 @@
 
                 <div class="publication-text col-md-7" ng-class-even="'col-md-pull-5'">
                     <h4>{{publication.title}}</h4>
+
                     <p><a href="#/publications/{{publication.id}}">{{publication.authors}} ({{publication.year}}), <em>{{publication.title}}</em>,
                         {{publication.journal}}</a></p>
                 </div>
+            </div>
         </div>
     </article>
+
 </div>
