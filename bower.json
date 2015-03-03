@@ -9,6 +9,7 @@
     "angular-mocks": "~1.2.x",
     "bootstrap": "~3.3.2",
     "angular-route": "~1.2.x",
-    "angular-google-maps": "*"
+    "angular-google-maps": "*",
+    "angular-waypoints": "*"
   }
 }

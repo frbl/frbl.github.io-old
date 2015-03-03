@@ -1,5 +1,5 @@
 var frbl, frblControllers, frblServices;
-frbl = angular.module('frbl', ['ngRoute', 'uiGmapgoogle-maps', 'frblControllers', 'frblServices']);
+frbl = angular.module('frbl', ['ngRoute', 'uiGmapgoogle-maps', 'frblControllers', 'frblServices', 'zumba.angular-waypoints']);
 frblControllers = angular.module('frblControllers', []);
 frblServices = angular.module('frblServices', []);
 
