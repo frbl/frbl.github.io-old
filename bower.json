@@ -10,6 +10,7 @@
     "bootstrap": "~3.3.2",
     "angular-route": "~1.2.x",
     "angular-google-maps": "*",
+    "waypoints": "*",
     "angular-waypoints": "*"
   }
 }
