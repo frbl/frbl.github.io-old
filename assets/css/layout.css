@@ -4,6 +4,8 @@
     src: url(../fonts/GeosansLight.ttf);
 }
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:700italic,300,700,300italic);
+
 @font-face {
     font-family: 'Mohave';
     src: url('../fonts/Mohave.otf');
@@ -83,7 +85,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-p {font-size:110%; font-weight: 300;}
+p {font-family:'Roboto', Helvetica, sans-serif; font-size:110%; font-weight: 300;}
 
 h1, h2, h3 {font-weight: bold; font-family: MohaveBold;}
 
