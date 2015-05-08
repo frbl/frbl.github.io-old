@@ -1,7 +1,7 @@
 frblServices.factory('GoogleCalendarService', function($http) {
 
-    var key = 'AIzaSyBMmyQ4f4JdJBfmbAfwsy0Ag7giNh4tbM0';
-    var calendar_id = '4jsjonjdekan0b8ndch0o12ja8@group.calendar.google.com';
+    var key = 'AIzaSyCA5Q_ThX76RkHaVitDsyV3-cII02OlaPs';
+    var calendar_id = 'rug.nl_c2khaopvongafpt5m4j3tk91g4@group.calendar.google.com';
 
     function build_url(id, key, date) {
         return apppend_date_range(append_key('https://www.googleapis.com/calendar/v3/calendars/' + id + '/events', key), date);
