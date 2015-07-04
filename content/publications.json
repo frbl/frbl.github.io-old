@@ -14,8 +14,8 @@
     "year": 2014,
     "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Bos, E.H., Emerencia, A. C., Jeronimus, B.F., Schenk, H. M., De Vos, S., Wardenaar, K. J., Wanders, R. B. K., Wigman, J. T. W., Aiello, M., De Jonge, P.",
     "abstract": "A paradigm shift is taking place in the field of mental healthcare and patient well-being. Traditionally, the attempts at sustaining and enhancing well-being were mainly based on the comparison of the individual with the population average. Recently, attention has shifted towards a more personal, idiographic approach. Such shift calls for new solutions to get data about individuals, create personalized models of well-being and translating these into personalized advice. Idiographic research can be conducted on a large scale by letting people measure themselves. Repeated collection of data, for example by means of questionnaires, provides individuals feedback on and insight into their well-being. A way to partially automate this feedback process is by creating software that statistically analyzes, using a method known as vector autoregression, repetitive questionnaire data to determine cause-effect relationships between the measured features. In this paper we describe a means to facilitate these repetitive measurements and to partially automate the feedback process. The paper provides an overview and technical description of such automated analyses software, named Autovar, and its use in an online self-measurement platform.",
-    "thumb": "how_nuts.png"
     "journal": "AAAI Fall Symposium on Expanding the Boundaries of Health Informatics Using AI (HIAI'14), Arlington, VA. (USA)",
+    "thumb": "how_nuts.png"
   },
   {
     "id": 3,
