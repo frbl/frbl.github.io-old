@@ -1,1 +1,5 @@
-http://frbl.eu/vi
+#!/bin/bash
+cd ~
+mv .vimrc .vimrc-old
+wget -O .vimrc http://goo.gl/45PoJG
+echo "Installed frbl vimrc"
