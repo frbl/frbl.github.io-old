@@ -1,6 +1,12 @@
 #!/bin/bash
 echo "Installing frbl vimrc"
 cd ~
+apt-get install git
+mkdir Drive
+cd Drive
+git clone git@github.com:frbl/dotfiles.git
+./setup.sh
+
 mv .vimrc .vimrc-old
 mkdir -p .vim/bundle/
 git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
