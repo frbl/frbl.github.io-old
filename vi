@@ -3,7 +3,7 @@ echo "Installing frbl vimrc"
 dir=`pwd`
 cd ~
 apt-get install -y git vim
-brew install vim
+brew install -y vim
 
 mkdir Drive
 cd Drive
