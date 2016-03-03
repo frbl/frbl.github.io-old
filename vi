@@ -3,10 +3,12 @@ echo "Installing frbl vimrc"
 dir=`pwd`
 cd ~
 apt-get install -y git vim tmux
+
 mkdir Drive
 cd Drive
 git clone git@github.com:frbl/dotfiles.git
 ./setup.sh
+cd ~
 
 mv .vimrc .vimrc-old
 mkdir -p .vim/bundle/
