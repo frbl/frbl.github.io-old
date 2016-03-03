@@ -2,7 +2,7 @@
 echo "Installing frbl vimrc"
 dir=`pwd`
 cd ~
-apt-get install -y git vim tmux
+apt-get install -y git vim
 
 mkdir Drive
 cd Drive
