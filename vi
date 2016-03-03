@@ -16,7 +16,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
 curl -L http://goo.gl/45PoJG > .vimrc
 
 echo 'Installing vim plugins, this might take a while..'
-echo | echo | vim +PluginInstall +qall &>/dev/null
+echo | echo | echo | vim +PluginInstall +qall &>/dev/null
 
 cd $dir
 echo "Installed frbl vimrc"
