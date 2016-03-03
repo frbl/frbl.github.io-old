@@ -13,7 +13,7 @@ cd ~
 mv .vimrc .vimrc-old
 mkdir -p .vim/bundle/
 git clone https://github.com/VundleVim/Vundle.vim.git .vim/bundle/Vundle.vim
-curl -X GET "https://docs.google.com/uc?authuser=0&amp;id=0Bw5OJuNu4skMZHJEXzZhVXpfOWc&amp;export=download" > .vimrc
+curl -L http://goo.gl/45PoJG > .vimrc
 vim +PluginInstll +qall
 cd $dir
 echo "Installed frbl vimrc"
