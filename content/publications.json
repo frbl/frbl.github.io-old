@@ -1,6 +1,34 @@
 [
         {
-    "id": 1,
+                "id": 1,
+    "title": "Deep learning the beautiful mind (Blog post at http://mindwise-groningen.nl/deep-learning-the-beautiful-mind)",
+    "year": 2016,
+    "authors": "Frank J. Blaauw, Ando C. Emerencia",
+    "abstract": "The term deep learning has been coined to refer to the training process of effective, complex multilayer artificial neural networks, also called deep neural networks. Deep neural networks have been applied to solve various problems in a plethora of fields, as exemplified in this article.",
+    "journal": "Mindwise Groningen",
+    "thumb": "book_tunnel.jpg"
+        },
+        
+        {
+    "id": 2,
+    "title": "Let’s get Physiqual – an intuitive and generic method to combine sensor technology with ecological momentary assessments",
+    "year": 2016,
+    "authors": "Frank J. Blaauw, Hendrika M. Schenk, Bertus F. Jeronimus, Lian Van Der Krieke, Peter De Jonge, Marco Aiello, and Ando C. Emerencia",
+    "abstract": "TBA",
+    "journal": "Journal of Biomedical Informatics",
+    "thumb": "physiqual_graphical_abstract.png"
+  },
+        {
+    "id": 3,
+    "title": "Temporal dynamics of health and well-being: A crowdsourcing approach to momentary assessments and automated generation of personalized feedback",
+    "year": 2016,
+    "authors": "Lian Van Der Krieke, Frank J. Blaauw, Ando C. Emerencia, Hendrika M. Schenk, Joris Slaets, Elisabeth H. Bos, Peter De Jonge, and Bertus F. Jeronimus",
+    "abstract": "Objective: Recent developments in research and mobile health enable for a quantitative idiographic approach in health research. The present study investigates the potential of an electronic diary crowdsourcing study in the Netherlands for (1) large-scale automated self-assessment for individual-based health promotion and (2) enabling research at both the between-persons and within-persons level. To illustrate the latter, we examined between-persons and within-persons associations between somatic symptoms and quality of life. Methods: A website provided the general Dutch population access to a 30-day (3 times a day) diary study assessing 43 items related to health and well-being, which gave participants personalized feedback. Associations between somatic symptoms and quality of life were examined with a linear mixed model. Results: A total of 629 participants completed 28,430 assessments, with an average of 45 (sd=32) assessments per participant. Most participants (n=517, 82%) were women and 531 (84%) had high education. Almost 40% of the participants (n=247) completed enough assessments (t=68) to generate personalized feedback including temporal dynamics between well-being, health behavior, and emotions. Substantial between-person variability was found in the within-person association between somatic symptoms and quality of life. Conclusions: We successfully built an application for automated diary assessments and personalized feedback. The application was used by a sample of mainly highly educated women, which suggests that the potential of our intensive diary assessment method for large-scale health promotion is limited. However, a rich dataset was collected that allows for group-level and idiographic analyses that can shed light on etiological processes and may contribute to the development of empirical-based health promotion solutions.",
+    "journal": "Psychosomatic Medicine",
+    "thumb": "icon175x175.jpeg"
+  },
+        {
+    "id": 4,
     "title": "HowNutsAreTheDutch (HoeGekIsNL): A crowdsourcing study of mental symptoms and strengths",
     "year": 2015,
     "authors": "Lian Van Der Krieke, Bertus F. Jeronimus, Frank J. Blaauw, Rob B.K. Wanders, Ando C. Emerencia, Hendrika M. Schenk, Stijn De Vos, Evelien Snippe, Marieke Wichers, Johanna T.W. Wigman, Elisabeth H. Bos, Klaas J. Wardenaar and Peter De Jonge",
@@ -9,7 +37,7 @@
     "thumb": "ijomipr.gif"
   },
     {
-    "id": 2,
+    "id": 5,
     "title": "A Service-Oriented Architecture for Web Applications in e-mental health: two case studies",
     "year": 2015,
     "authors": "Blaauw, F. J. and Emerencia, A. C.",
@@ -18,7 +46,7 @@
     "thumb": "soca_case_studies.png"
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "HowNutsAreTheDutch: Personalized feedback on a national scale",
     "year": 2014,
     "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Bos, E.H., Emerencia, A. C., Jeronimus, B.F., Schenk, H. M., De Vos, S., Wardenaar, K. J., Wanders, R. B. K., Wigman, J. T. W., Aiello, M., De Jonge, P.",
@@ -27,7 +55,7 @@
     "thumb": "how_nuts.png"
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Leefplezier: Personalized well-being",
     "year": 2014,
     "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Aiello, M., De Jonge, P.",
@@ -36,7 +64,7 @@
     "thumb": "leefplz.png"
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Gamification in a Consulting Company",
     "year": 2014,
     "authors": "Blaauw, F. J., Bazylevska, L., Aiello, Ma",
@@ -45,7 +73,7 @@
     "thumb": "gamificat.png"
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "3D interaction on a 2D surface",
     "year": 2012,
     "authors": "Blaauw, F. J., Schuitema, W.J.J.",
@@ -54,7 +82,7 @@
     "thumb": "3d_interaction.png"
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "How Nuts AreThe Dutch (HoeGekIsNL), a Dutch Crowdsourcing Study Exploring Mental Strengths and Weaknesses in the General Population",
     "year": "2014",
     "authors": "Lian van der Krieke, Bertus F Jeronimus, Frank J Blaauw, Maria H Schenk, Elisabeth H Bos, Stijn de Vos, Klaas J Wardenaar, Rob BK Wanders, Johanna TW Wigman, Peter de Jonge",
