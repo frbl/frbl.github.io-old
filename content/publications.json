@@ -1,6 +1,15 @@
 [
         {
-                "id": 1,
+    "id": 1,
+    "title": "Exploring the emotional dynamics of subclinically depressed individuals with and without anhedonia: an experience sampling study",
+    "year": 2017,
+    "authors": "Fionneke M. Bos, Frank J. Blaauw, Evelien Snippe, Lian van der Krieke, Peter de Jonge, and Marieke Wichers",
+    "abstract": "Background. Anhedonia has been linked to worse prognosis of depression. The present study aimed to construct personalized models to elucidate the emotional dynamics of subclinically depressed individuals with versus without symptoms of anhedonia.  Methods. Matched subclinically depressed individuals with and without symptoms of anhedonia (N=40) of the HowNutsAreTheDutch sample completed three experience sampling methodology assessments per day for 30 days. For each individual, the impact of physical activity, stress experience, and high/low arousal PA/NA on each other was estimated through automated impulse response function analysis (IRF). These individual IRF associations were combined to compare anhedonic versus non-anhedonic individuals.  Results. Physical activity had low impact on affect in both groups. In non-anhedonic individuals, stress experience increased NA and decreased PA and physical activity more strongly. In anhedonic individuals, PA high arousal showed a diminished favorable impact on affect (increasing NA/stress experience, decreasing PA/physical activity). Finally, large heterogeneity in the personalized models of emotional dynamics were found.  Limitations. Stress experience was measured indirectly by assessing level of distress; the timeframe in between measurements was relatively long with 6 hours; and only information on one of the two hallmarks of anhedonia, loss of interest, was gathered.  Conclusions. Our results suggest different pathways of emotional dynamics underlie depressive symptomatology. Subclinically depressed individuals with anhedonic complaints are more strongly characterized by diminished favorable impact of PA high arousal and heightened NA reactivity, whereas subclinically depressed individuals without these anhedonic complaints seem  more characterized by heightened stress reactivity. The automatically generated personalized models may offer patient-specific insights in emotional dynamics, which may show clinical relevance.",
+    "journal": "Journal of Affective Disorders",
+    "thumb": "empty.png"
+        },
+        {
+    "id": 2,
     "title": "Deep learning the beautiful mind (Blog post at http://mindwise-groningen.nl/deep-learning-the-beautiful-mind)",
     "year": 2016,
     "authors": "Frank J. Blaauw, Ando C. Emerencia",
@@ -10,7 +19,7 @@
         },
         
         {
-    "id": 2,
+    "id": 3,
     "title": "Let’s get Physiqual – an intuitive and generic method to combine sensor technology with ecological momentary assessments",
     "year": 2016,
     "authors": "Frank J. Blaauw, Hendrika M. Schenk, Bertus F. Jeronimus, Lian Van Der Krieke, Peter De Jonge, Marco Aiello, and Ando C. Emerencia",
@@ -19,7 +28,7 @@
     "thumb": "physiqual_graphical_abstract.png"
   },
         {
-    "id": 3,
+    "id": 4,
     "title": "Temporal dynamics of health and well-being: A crowdsourcing approach to momentary assessments and automated generation of personalized feedback",
     "year": 2016,
     "authors": "Lian Van Der Krieke, Frank J. Blaauw, Ando C. Emerencia, Hendrika M. Schenk, Joris Slaets, Elisabeth H. Bos, Peter De Jonge, and Bertus F. Jeronimus",
@@ -28,7 +37,7 @@
     "thumb": "icon175x175.jpeg"
   },
         {
-    "id": 4,
+    "id": 5,
     "title": "HowNutsAreTheDutch (HoeGekIsNL): A crowdsourcing study of mental symptoms and strengths",
     "year": 2015,
     "authors": "Lian Van Der Krieke, Bertus F. Jeronimus, Frank J. Blaauw, Rob B.K. Wanders, Ando C. Emerencia, Hendrika M. Schenk, Stijn De Vos, Evelien Snippe, Marieke Wichers, Johanna T.W. Wigman, Elisabeth H. Bos, Klaas J. Wardenaar and Peter De Jonge",
@@ -37,7 +46,7 @@
     "thumb": "ijomipr.gif"
   },
     {
-    "id": 5,
+    "id": 6,
     "title": "A Service-Oriented Architecture for Web Applications in e-mental health: two case studies",
     "year": 2015,
     "authors": "Blaauw, F. J. and Emerencia, A. C.",
@@ -46,7 +55,7 @@
     "thumb": "soca_case_studies.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "HowNutsAreTheDutch: Personalized feedback on a national scale",
     "year": 2014,
     "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Bos, E.H., Emerencia, A. C., Jeronimus, B.F., Schenk, H. M., De Vos, S., Wardenaar, K. J., Wanders, R. B. K., Wigman, J. T. W., Aiello, M., De Jonge, P.",
@@ -55,7 +64,7 @@
     "thumb": "how_nuts.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Leefplezier: Personalized well-being",
     "year": 2014,
     "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Aiello, M., De Jonge, P.",
@@ -64,7 +73,7 @@
     "thumb": "leefplz.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Gamification in a Consulting Company",
     "year": 2014,
     "authors": "Blaauw, F. J., Bazylevska, L., Aiello, Ma",
@@ -73,7 +82,7 @@
     "thumb": "gamificat.png"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "3D interaction on a 2D surface",
     "year": 2012,
     "authors": "Blaauw, F. J., Schuitema, W.J.J.",
@@ -82,7 +91,7 @@
     "thumb": "3d_interaction.png"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "How Nuts AreThe Dutch (HoeGekIsNL), a Dutch Crowdsourcing Study Exploring Mental Strengths and Weaknesses in the General Population",
     "year": "2014",
     "authors": "Lian van der Krieke, Bertus F Jeronimus, Frank J Blaauw, Maria H Schenk, Elisabeth H Bos, Stijn de Vos, Klaas J Wardenaar, Rob BK Wanders, Johanna TW Wigman, Peter de Jonge",
