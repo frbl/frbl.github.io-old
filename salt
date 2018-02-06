@@ -4,7 +4,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	echo 'New hostname: '
 	read hostname_update
-	hostnamectl set-hostname $hostname_update
+	sudo hostnamectl set-hostname $hostname_update
 fi
 
 echo Installing git
